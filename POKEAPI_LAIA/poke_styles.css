@@ -7,7 +7,11 @@
   /* background-color: darkcyan; */
 }
 
-.card {
+#pokemonList {
+  margin: 0 auto;
+}
+.card,
+.cardSmall {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -15,11 +19,15 @@
   width: 326px;
   border: 1px solid #000;
   border-radius: 16px;
-  margin: 10px auto;
+  margin: 10px 15px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 7);
-  /* background-color: green; */
   overflow: hidden;
   position: relative;
+  float: left;
+}
+.cardSmall {
+  height: 250px;
+  width: 200px;
 }
 
 .card-body {
